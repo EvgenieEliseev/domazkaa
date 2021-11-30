@@ -151,3 +151,60 @@ html,body{
 	color: #fff;
 	text-align: center;
 }
+}
+
+
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+	.up{
+		flex-direction: column;
+	}
+	.logo{
+		text-align: center;
+	}
+	.up__content{
+		width: 100%;
+		text-align: center;
+		padding-top: 65px;
+	}
+	.up__content p{
+		text-align: center;
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.btn{
+		margin: 0 auto;
+	}
+}
+
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+	.sect1__content{
+		flex-direction: column;
+	}
+	.sect1__content__list{
+		width: 100%;
+	}
+	.form_item{
+		width: 100%;
+	}
+	.btn{
+		width: 100%;
+		padding: 10px;
+	}
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+}
